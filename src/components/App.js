@@ -2,8 +2,8 @@ import React from 'react'
 import './app.css'
 export default function App() {
     return (
-        <div>
-            App
+        <div className='app-container'>
+            <div className='app-wrapper'></div>
         </div>
     )
 }

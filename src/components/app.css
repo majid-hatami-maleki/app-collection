@@ -1,0 +1,26 @@
+:root {
+  --primary-bg: #141414;
+  --primary-border-color: #555555;
+  --secondary-bg: black;
+}
+
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--primary-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /*display flex*/
+}
+.app-wrapper {
+  width: 80%;
+  height: 900px;
+  border: 1px solid var(--primary-border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*display flex*/
+}
